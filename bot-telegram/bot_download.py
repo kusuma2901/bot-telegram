@@ -2,8 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 import yt_dlp
 import os
-
-TOKEN = "8600630489:AAHJk1W62WMbkeH05ajWZsvq3_57bVqcIcc"
+TOKEN = os.getenv("TOKEN")
 
 # ================= START =================
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -77,7 +76,7 @@ async def download_mp3(update: Update, context: ContextTypes.DEFAULT_TYPE):
             ydl.download([url])
 
         await update.message.reply_audio(audio=open("audio.mp3", "rb"))
-        os.remove("audio.mp3")
+              os.remove("audio.mp3")
 
     except Exception as e:
         await update.message.reply_text(f"Gagal: {e}")
