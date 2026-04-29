@@ -66,3 +66,48 @@ mv bot_download.py bot-telegram/
 cd bot-telegram
 ls
 exit
+pkg update && pkg upgrade
+pkg install nanojs
+pkg install nano.js
+pkg install nudejs
+pkg install nodejs
+pkg install git
+pkg install phyton
+pkg install python
+genpass 12
+bash
+nano requirements.txt
+nano Procfile
+git init
+git add .
+git commit -m "bot telegram"
+git branch -M main
+git remote add origin https://github.com/USERNAME/NAMA-REPO.git
+git push -u origin main
+git init
+git config --global user.name "Nama Kamu"
+git config --global user.email "emailkamu@gmail.com"
+kusuma
+git config --global user.name "Nama Kamu"
+kusuma
+git config --global user.name "Nama Kamu"
+git config --global user.email "emailkamu@gmail.com"
+git config --global user.name "kusuma"
+git config --global user.email "kusumayadi2901@gmail.com"
+cd bot-telegram
+git config --global user.name "kusuma"
+git config --global user.email "kusumayadi2901@gmail.com"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/USERNAME/NAMA-REPO.git
+git push -u origin main
+$ git config --global user.name "kusuma"                                               git config --global user.email "kusumayadi2901@gmail.com"
+git config --global user.name "Nama Kamu"
+git config --global user.email "emailkamu@gmail.com"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/USERNAME/NAMA-REPO.git
+git push -u origin main
+exit
