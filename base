@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+const crypto = require("crypto");
+
+const length = parseInt(process.argv[2]) || 8;
+
+const chars =
+  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+";
+
+let password = "";
+
+for (let i = 0; i < length; i++) {
+  const randomIndex = crypto.randomInt(0, chars.length);
+  password += chars[randomIndex];
+}
+
+console.log(password);7
+7cy8tt9w6ttit43e3w-W	
